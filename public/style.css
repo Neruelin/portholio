@@ -1,0 +1,28 @@
+#pad {
+	padding-bottom: 30px;
+	width: 100vw;
+}
+
+#front {
+	overflow: hidden;
+}
+
+#front > img {
+	height: 100%;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+#overCaption {
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	position: absolute;
+	top: 15%;
+}
+
+#overCaption > p {
+	padding: 2.5% 0 2.5% 15%;
+	max-width: 60vw;
+	font-size: 26px;
+	color: white;
+}
